@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/HeroBornArenaProd.unity
+    path: Assets/Scenes/Main.unity
+    guid: ad12a8bcb5a90a340a126178744b2afc
+  - enabled: 1
+    path: Assets/Scenes/HeroBornArenaProd.unity
     guid: a3a4384350f932946aedc16adf08f1b8
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 7d19f04f48d05da439170541eb665666
+  - enabled: 1
+    path: Assets/Scenes/Lose.unity
+    guid: 4b89a46b23baa294bbc2e92113b54331
   m_configObjects: {}
