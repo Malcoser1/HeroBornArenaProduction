@@ -22,6 +22,8 @@ public class EnemyBehavior : MonoBehaviour
 
             if (_lives <= 0)
             {
+                var audioSource = GetComponent<AudioSource>();
+                audioSource.Play();
                 Destroy(this.gameObject);
                 Debug.Log("Enemy down.");
             }

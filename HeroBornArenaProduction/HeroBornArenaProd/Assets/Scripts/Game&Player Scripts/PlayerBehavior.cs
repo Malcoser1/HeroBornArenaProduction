@@ -79,10 +79,11 @@ public class PlayerBehavior : MonoBehaviour
 
         if (doShoot)
         {
-
             GameObject newBullet = Instantiate(bullet, this.transform.position + this.transform.right, this.transform.rotation) as GameObject;
             Rigidbody bulletRB = newBullet.GetComponent<Rigidbody>();
             bulletRB.velocity = this.transform.forward * bulletSpeed;
+            var audioSource = GetComponent<AudioSource>();
+            audioSource.Play();
             doShoot = false;
         }
     }
